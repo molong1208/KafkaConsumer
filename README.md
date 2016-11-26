@@ -13,5 +13,5 @@
 其中配置文件为：./conf/sysconfig.properties，需要注意的是当使用offset获得数据的时候，需要的是kafka的ip以及端口；如果自动获
 得kafka数据的时候，即使用high level的方式，让kafka自动push的时候，需要的是zookeeper的ip以及端口
 
-关于配置文件的每一个参数的含义在里面均有详细的说明
+关于配置文件的每一个参数的含义在里面均有详细的说明在此不过多叙述
 

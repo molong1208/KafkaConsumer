@@ -10,8 +10,9 @@
 
 额外支持得到当前kafka对应的topic以及分区下的最大的offset
 
-其中配置文件为：./conf/sysconfig.properties，需要注意的是当使用offset获得数据的时候，需要的是kafka的ip以及端口；如果自动获
-得kafka数据的时候，即使用high level的方式，让kafka自动push的时候，需要的是zookeeper的ip以及端口
+其中配置文件为：./conf/sysconfig.properties，需要注意的是当使用offset获得数据的时候，需要的是kafka的ip以及端口，配置kafka_ip_port
+
+如果自动获得kafka数据的时候，即使用high level的方式，让kafka自动push的时候，需要的是zookeeper的ip以及端口，配置zookeeper_ip_port
 
 关于配置文件的每一个参数的含义在里面均有详细的说明在此不过多叙述
 

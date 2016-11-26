@@ -1,0 +1,14 @@
+2016-11-26 19:26:32 [com.dd.Common.Log]-[ERROR] start get data from kafka!
+2016-11-26 19:26:33 [com.dd.Common.Log]-[ERROR] end get data from kafka count:6 cost:769ms
+2016-11-26 19:29:15 [com.dd.Common.Log]-[ERROR] start get data from kafka!
+2016-11-26 19:29:18 [TestKafka.first.MySimpleConsumer]-[ERROR] Error communicating with Broker [10.5.25.167] to find Leader for [core_test, 0] Reason: java.nio.channels.ClosedChannelException
+2016-11-26 19:29:18 [TestKafka.first.MySimpleConsumer]-[ERROR] Can't find metadata for Topic and Partition. Exiting
+2016-11-26 19:29:18 [com.dd.Common.Log]-[ERROR] end get data from kafka count:0 cost:2354ms
+2016-11-26 19:29:51 [com.dd.Common.Log]-[ERROR] start get data from kafka!
+2016-11-26 19:29:54 [TestKafka.first.MySimpleConsumer]-[ERROR] Error communicating with Broker [10.5.25.167] to find Leader for [core_test, 0] Reason: java.nio.channels.ClosedChannelException
+2016-11-26 19:29:54 [TestKafka.first.MySimpleConsumer]-[ERROR] Can't find metadata for Topic and Partition. Exiting
+2016-11-26 19:29:54 [com.dd.Common.Log]-[ERROR] end get data from kafka count:0 cost:2341ms
+2016-11-26 19:30:37 [com.dd.Common.Log]-[ERROR] start get data from kafka!
+2016-11-26 19:30:39 [TestKafka.first.MySimpleConsumer]-[ERROR] Error communicating with Broker [10.5.25.167] to find Leader for [core_test, 0] Reason: java.nio.channels.ClosedChannelException
+2016-11-26 19:30:39 [TestKafka.first.MySimpleConsumer]-[ERROR] Can't find metadata for Topic and Partition. Exiting
+2016-11-26 19:30:39 [com.dd.Common.Log]-[ERROR] end get data from kafka count:0 cost:2349ms

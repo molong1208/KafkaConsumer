@@ -1,2 +1,8 @@
-# ReadKafkaByOffset
-按照kafka的offset读取kafka的数据
+# KafkaConsumer
+提供两种从kafka得到数据的方式
+
+1、直接从kafka得到数据，不是按照offset主动拉取的，偏移等信息的控制由kafka server端控制
+
+2、提供从kafka按照offset得到数据，client端可以更加灵活的去控制如何读取数据，方便错误回溯
+
+额外支持得到当前kafka对应的topic以及分区下的最大的offset
